@@ -24,6 +24,34 @@
     print_r($students);
 
     echo "<br>" . $students["Name"] . "<br>";
+
+
+    echo "Array of arrays";
+
+    $student = array(
+        "MCA" => array(
+            array(
+                "Name" => "ROHIT",
+                "AGE" => 23
+            ),
+            array(
+                "Name" => "Rohan",
+                "AGE" => 22
+            )
+        ),
+        "BCA" => array(
+            array(
+                "Name" => "Choti",
+                "AGE" => 18
+            ),
+            array(
+                "Name" => "Badi",
+                "AGE" => 18
+            )
+        )
+    );
+
+    print_r($student);
     ?>
 </body>
 
